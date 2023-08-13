@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: blueviolet;
+}
+.App{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 2rem auto;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+}
+.header{
+  padding-left: 0.5rem;
+}
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.person{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  margin-left: 0.5rem;
+}
+.img-container{
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem 0 0 0.5rem;
+}
+.name{
+  margin: 0 0 0.25rem 0;
+}
+.age{
+  margin: 0 0 0.25rem 0;
+}
+.btn{
+  color: red;
+  border: none;
+  background-color: aliceblue;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn:hover{
+ font-size: 18px;
+}
+.clearbtn{
+  width: 70%;
+  margin: 0.5rem auto;
+  background-color: brown;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5px;
+  padding: 0.25rem 0;
+  cursor: pointer;
+}
